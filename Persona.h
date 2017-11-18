@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-class Persona(){
+class Persona{
   public:
     string nacion;
     string nombre;

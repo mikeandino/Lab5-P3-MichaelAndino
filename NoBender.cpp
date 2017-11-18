@@ -7,15 +7,17 @@ NoBender :: NoBender(string pNombre,string pNacion,string pEdad, string pSexo,st
 }
 
 string NoBender::getTrabajo(){
-    return nacion;
+    return trabajo;
 }
 
 string NoBender::getFuerza(){
-    return nombre;
+    return fuerza;
 }
 
 string NoBender::getVelocidad(){
-  return edad;
+  return velocidad;
 }
 
-~NoBender();
+NoBender::~NoBender(){
+
+}

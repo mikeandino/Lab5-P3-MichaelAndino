@@ -1,17 +1,21 @@
-#ifndef NOBENDER_H
-#define NOBENDER_H
+#ifndef AIRBENDER_H
+#define AIRBENDER_H
 #include <iostream>
 #include <string>
+#include "Persona.h"
+#include "Poder.h"
+
 using namespace std;
 
-class NoBender(){
-  string trabajo;
-  string fuerza;
-  string velocidad;
-  Persona(string,string,string,string,string,string,string);
-  string getTrabajo();
-  string getFuerza();
-  string getVelocidad();
-}
-
-#endifkt
+class AirBender : public Persona{
+  public:
+    string pelo;
+    string flecha;
+    Poder poder;
+    AirBender(string,string,string,string,string,string,Poder);
+    string getPelo();
+    string getFlecha();
+    string getPoder();
+    ~AirBender();
+};
+#endif

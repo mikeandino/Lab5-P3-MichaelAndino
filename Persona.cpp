@@ -23,4 +23,6 @@ string Persona::getSexo(){
   return sexo;
 }
 
-~Persona();
+Persona::~Persona(){
+  
+}
